@@ -7,28 +7,28 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default"
-title                    : "Yanqing Wu / Personal Homepage"
+locale                   : #"en-US"
+site_theme               : #"default"
+title                    : #"Yanqing Wu / Personal Homepage"
 title_separator          : "-"
-name                     : &name "Yanqing Wu"
-description              : &description "A forth year undergraduate student from Southeast University."
-url                      : https://517wulala.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : #&name "Yanqing Wu"
+description              : #&description "A forth year undergraduate student from Southeast University."
+url                      : https://517wulala.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "517wulala/517wulala.github.io"
+repository               : #"517wulala/517wulala.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "./wyq.png"
+  avatar           : "wyq.png"
   name             : "Yanqing Wu(吴妍青)"
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate, Southeast University, Shool of Cyber Science and Engineering."
   location         : "China Jiangsu Nanjing
   employer         : #"Red Brick University"
-  uri              : #"https://517wulala.github.io"  # URL
+  uri              : "https://517wulala.github.io"  # URL
   email            : "2576782409@qq.com" 
 
   # Academic websites
